@@ -17,13 +17,13 @@ export function ProjectsSection() {
       featured: false
     },
     {
-      id: 2,
-      title: "Echoes Of Us",
-      description: "Echoes of Us is an interactive online slam book that lets friends share memories, answer fun questions, and preserve moments in a personalized digital format.",
-      image: "echologo.webp",
-      technologies: ["React", "TypeScript", "Vite","Tailwind CSS"],
-      githubUrl: "https://github.com/pranithagunti/echoes-of-us-online",
-      liveUrl: "https://echoes-of-us-online.vercel.app/",
+      id: 3,
+      title: "HealthGuard-Sleep And Lifestyle Analyzer",
+      description: "Echoedescription: "HealthGuard tracks sleep and lifestyle, calculates BMI/BMR, debunks sleep myths, suggests healthy habits, offers guided meditation, gives badges, and predicts stress levels for better well-being.",
+      image: "sleep.jpeg",
+      technologies: ["pandas", "streamlit", "scikit-learn","numpy","matplotlib"],
+      githubUrl: "https://github.com/pranithagunti/HealthGuard-Sleep-And-LifeStyle-",
+      liveUrl: "https://rxrtbmegane7wnkysfhata.streamlit.app",
       featured: false
     },
     {
@@ -54,6 +54,16 @@ export function ProjectsSection() {
       githubUrl: "https://github.com/pranithagunti/Potato-Leaf-Disease-Detection-System",
       featured: false
     },
+    {
+      id: 6,
+      title: "Echoes Of Us",
+      description: "Echoes of Us is an interactive online slam book that lets friends share memories, answer fun questions, and preserve moments in a personalized digital format.",
+      image: "echologo.webp",
+      technologies: ["React", "TypeScript", "Vite","Tailwind CSS"],
+      githubUrl: "https://github.com/pranithagunti/echoes-of-us-online",
+      liveUrl: "https://echoes-of-us-online.vercel.app/",
+      featured: false
+    }
   ])
 
   const [showAll, setShowAll] = useState(false)
