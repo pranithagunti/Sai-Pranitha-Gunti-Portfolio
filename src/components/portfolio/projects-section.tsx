@@ -18,8 +18,8 @@ export function ProjectsSection() {
     },
     {
       id: 2,
-      title: "HealthGuard-Sleep And Lifestyle Analyzer",
-      description: "Echoedescription: "HealthGuard tracks sleep and lifestyle, calculates BMI/BMR, debunks sleep myths, suggests healthy habits, offers guided meditation, gives badges, and predicts stress levels for better well-being.",
+      title: "HealthGuard - Sleep And Lifestyle Analyzer",
+      description: "HealthGuard tracks sleep and lifestyle, calculates BMI/BMR, debunks sleep myths, suggests healthy habits, offers guided meditation, gives badges, and predicts stress levels for better well-being.",
       image: "sleep.jpeg",
       technologies: ["pandas", "streamlit", "scikit-learn","numpy","matplotlib"],
       githubUrl: "https://github.com/pranithagunti/HealthGuard-Sleep-And-LifeStyle-",
