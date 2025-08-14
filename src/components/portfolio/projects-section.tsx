@@ -17,7 +17,7 @@ export function ProjectsSection() {
       featured: false
     },
     {
-      id: 3,
+      id: 2,
       title: "HealthGuard-Sleep And Lifestyle Analyzer",
       description: "Echoedescription: "HealthGuard tracks sleep and lifestyle, calculates BMI/BMR, debunks sleep myths, suggests healthy habits, offers guided meditation, gives badges, and predicts stress levels for better well-being.",
       image: "sleep.jpeg",
