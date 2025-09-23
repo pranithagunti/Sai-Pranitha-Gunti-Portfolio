@@ -17,15 +17,18 @@ export function ProjectsSection() {
       featured: false
     },
     {
-      id: 2,
-      title: "HealthGuard - Sleep And Lifestyle Analyzer",
-      description: "HealthGuard tracks sleep and lifestyle, calculates BMI/BMR, debunks sleep myths, suggests healthy habits, offers guided meditation, gives badges, and predicts stress levels for better well-being.",
-      image: "sleep.jpeg",
-      technologies: ["pandas", "streamlit", "scikit-learn","numpy","matplotlib"],
-      githubUrl: "https://github.com/pranithagunti/HealthGuard-Sleep-And-LifeStyle-",
-      liveUrl: "https://rxrtbmegane7wnkysfhata.streamlit.app",
-      featured: false
-    },
+  id: 2,
+  title: "HealthGuard - Sleep And Lifestyle Analyzer",
+  description: "HealthGuard tracks sleep and lifestyle, calculates BMI/BMR, debunks sleep myths, suggests healthy habits, offers guided meditation, gives badges, and predicts stress levels for better well-being.",
+
+  image: "sleep.jpeg",
+  technologies: ["pandas", "streamlit", "scikit-learn","numpy","matplotlib"],
+  githubUrl: "https://github.com/pranithagunti/HealthGuard-Sleep-And-LifeStyle-",
+  liveUrl: "https://rxrtbmegane7wnkysfhata.streamlit.app",
+  featured: false
+}
+,
+    
     {
       id: 3,
       title: "Cyber Risk Analzer",
@@ -47,6 +50,16 @@ export function ProjectsSection() {
     },
     {
       id: 5,
+      title: "Roam Ready-A Travel Guide",
+      description: "​Developed Roam Ready, an intelligent travel assistant that creates personalized itineraries and recommendations. By leveraging AI frameworks like LangChain and LangGraph, the tool reduced user planning time by 60% and increased satisfaction scores by 30%.",
+      image: "roam.jpeg",
+      technologies: ["gradio","langchain","langchain-core","langchain-groq","langgraph"],
+      liveUrl: "https://huggingface.co/spaces/Pranitha16/Roam-Ready",
+      githubUrl: "https://github.com/pranithagunti/Roam-Ready",
+      featured: false
+    },
+    {
+      id: 6,
       title: "Potato Leaf Disease Detection System",
       description: "Potato leaf disease detection system using CNN for accurate image-based identification, enabling early diagnosis and prevention of crop damage.",
       image: "potatologo.jpeg",
@@ -55,7 +68,7 @@ export function ProjectsSection() {
       featured: false
     },
     {
-      id: 6,
+      id: 7,
       title: "Echoes Of Us",
       description: "Echoes of Us is an interactive online slam book that lets friends share memories, answer fun questions, and preserve moments in a personalized digital format.",
       image: "echologo.webp",
@@ -63,7 +76,7 @@ export function ProjectsSection() {
       githubUrl: "https://github.com/pranithagunti/echoes-of-us-online",
       liveUrl: "https://echoes-of-us-online.vercel.app/",
       featured: false
-    }
+    },
   ])
 
   const [showAll, setShowAll] = useState(false)
@@ -131,7 +144,7 @@ export function ProjectsSection() {
     </a>
   </Button>
 
-  {project.liveUrl && project.id !== 4 && project.id !== 5 && (
+  {project.liveUrl && project.id !== 4 &&  (
     <Button
       size="sm"
       className="flex-1"
