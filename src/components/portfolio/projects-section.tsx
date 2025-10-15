@@ -6,27 +6,27 @@ import { ExternalLink, Github, Plus } from "lucide-react"
 
 export function ProjectsSection() {
   const [projects] = useState([
+  {
+    id: 1,
+    title: "FloodSense AI",
+    description: "FloodSense AI is an intelligent flood analysis and risk management system that assesses flood-prone areas using coordinates and terrain images. It leverages Google Gemini AI with FastAPI and Next.js for real-time analysis and interactive visualizations.",
+    image: "floodsense.png",
+    technologies: ["Next.js", "FastAPI", "TypeScript", "Tailwind CSS", "Gemini AI"],
+    githubUrl: "https://github.com/pranithagunti/FloodSense-AI-",
+    liveUrl: "https://flood-analysis.vercel.app",
+    featured : false
+  },
     {
-      id: 1,
-      title: "Codevault",
-      description: "CodeVault is a secure web app for storing, organizing,Categorizing and managing code snippets efficiently, built with React, TypeScript, and Tailwind CSS.",
-      image: "codelogo.png",
-      technologies: ["React", "Node.js", "MongoDB","Vite", "Tailwind CSS"],
-      githubUrl: "https://github.com/pranithagunti/CodeVault",
-      liveUrl: "https://code-vault-one-sigma.vercel.app/",
-      featured: false
-    },
-    {
-  id: 2,
-  title: "HealthGuard - Sleep And Lifestyle Analyzer",
-  description: "HealthGuard tracks sleep and lifestyle, calculates BMI/BMR, debunks sleep myths, suggests healthy habits, offers guided meditation, gives badges, and predicts stress levels for better well-being.",
+    id: 2,
+    title: "HealthGuard - Sleep And Lifestyle Analyzer",
+    description: "HealthGuard tracks sleep and lifestyle, calculates BMI/BMR, debunks sleep myths, suggests healthy habits, offers guided meditation, gives badges, and predicts stress levels for better well-being.",
 
-  image: "sleep.jpeg",
-  technologies: ["pandas", "streamlit", "scikit-learn","numpy","matplotlib"],
-  githubUrl: "https://github.com/pranithagunti/HealthGuard-Sleep-And-LifeStyle-",
-  liveUrl: "https://rxrtbmegane7wnkysfhata.streamlit.app",
-  featured: false
-}
+    image: "sleep.jpeg",
+    technologies: ["pandas", "streamlit", "scikit-learn","numpy","matplotlib"],
+    githubUrl: "https://github.com/pranithagunti/HealthGuard-Sleep-And-LifeStyle-",
+    liveUrl: "https://rxrtbmegane7wnkysfhata.streamlit.app",
+    featured: false
+  }
 ,
     
     {
@@ -75,6 +75,16 @@ export function ProjectsSection() {
       technologies: ["React", "TypeScript", "Vite","Tailwind CSS"],
       githubUrl: "https://github.com/pranithagunti/echoes-of-us-online",
       liveUrl: "https://echoes-of-us-online.vercel.app/",
+      featured: false
+    },
+    {
+      id: 8,
+      title: "Codevault",
+      description: "CodeVault is a secure web app for storing, organizing,Categorizing and managing code snippets efficiently, built with React, TypeScript, and Tailwind CSS.",
+      image: "codelogo.png",
+      technologies: ["React", "Node.js", "MongoDB","Vite", "Tailwind CSS"],
+      githubUrl: "https://github.com/pranithagunti/CodeVault",
+      liveUrl: "https://code-vault-one-sigma.vercel.app/",
       featured: false
     },
   ])
