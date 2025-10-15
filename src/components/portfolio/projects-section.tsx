@@ -10,7 +10,7 @@ export function ProjectsSection() {
     id: 1,
     title: "FloodSense AI",
     description: "FloodSense AI is an intelligent flood analysis and risk management system that assesses flood-prone areas using coordinates and terrain images. It leverages Google Gemini AI with FastAPI and Next.js for real-time analysis and interactive visualizations.",
-    image: "floodsense.png",
+    image: "floodsense.jpeg",
     technologies: ["Next.js", "FastAPI", "TypeScript", "Tailwind CSS", "Gemini AI"],
     githubUrl: "https://github.com/pranithagunti/FloodSense-AI-",
     liveUrl: "https://flood-analysis.vercel.app",
